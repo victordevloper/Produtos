@@ -2,7 +2,7 @@ package Application;
 
 import java.util.Locale;
 
-public class SaidaDeDados 
+public class project1_SaidaDeDados 
 {
 	public static void Execute()
 	{

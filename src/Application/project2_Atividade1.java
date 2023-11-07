@@ -2,7 +2,7 @@ package Application;
 
 import java.util.Locale;
 
-public class Atividade1
+public class project2_Atividade1
 {
 	public static void Executar()
 	{
@@ -29,7 +29,6 @@ public class Atividade1
 		Locale.setDefault(Locale.US);
 		System.out.print("US decimal point: ");
 		System.out.printf("%.3f%n", measure);			
-		
 	}
 			
 }

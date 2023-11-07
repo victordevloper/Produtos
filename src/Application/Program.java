@@ -4,6 +4,6 @@ public class Program
 {	
 	public static void main(String[] args) 
 	{
-		Atividade1.Executar();
+		project3_EntradaDeDados.Execute();
 	}
 }
