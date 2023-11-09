@@ -23,7 +23,7 @@ public class project4_FuncoesMatematicas
 		
 		System.out.println(x + " elevado a " + y + " é igual a: " + A);
 		System.out.println(x + " elevado ao quadrado é igual a: " + B);
-		System.out.println("5 elevado ao quadrafo é igual a:  " + C);
+		System.out.println("5 elevado ao quadrado é igual a:  " + C);
 		
 		A = Math.abs(y);
 		B = Math.abs(z);
