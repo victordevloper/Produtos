@@ -17,6 +17,5 @@ public class project5_Atividade2
 		
 		System.out.printf("A=%.4f%n", A);
 		sc.close();
-		
 	}
 }
