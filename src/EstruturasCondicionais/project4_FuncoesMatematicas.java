@@ -1,4 +1,4 @@
-package Application;
+package EstruturasCondicionais;
 
 public class project4_FuncoesMatematicas 
 {
