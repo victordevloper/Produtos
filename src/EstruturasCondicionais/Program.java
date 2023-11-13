@@ -1,9 +1,11 @@
 package EstruturasCondicionais;
 
+import EstruturasRepetitivas.EstruturaRepetitivaWhile;
+
 public class Program
 {	
 	public static void main(String[] args) 
 	{
-		project10_ExpressaoCondicionalTernaria.Executar();
+		EstruturaRepetitivaWhile.Executar();
 	}
 }
