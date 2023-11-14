@@ -17,6 +17,8 @@ public class project2_Exercicio1
 		}
 		
 		System.out.println("Acesso Permitido");
+		
+		sc.close();
 
 	}
 }

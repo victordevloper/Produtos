@@ -1,12 +1,18 @@
 package EstruturasRepetitivas;
 
+import java.util.Scanner;
+
 public class project3_EstruturaRepetitivaFor 
 {
 	public static void Executar()
 	{
-		for(int x = 0; x <= 10; x++)
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Digite um numero que seja maior que 0: ");
+		int num = sc.nextInt();
+		
+		for(int x = 0; x <= num; x++)
 		{
-			System.out.println("Mensagem");
+			System.out.println("sequencial - " + x);
 		}
 	}
 }
