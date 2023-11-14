@@ -2,7 +2,7 @@ package EstruturasRepetitivas;
 
 import java.util.Scanner;
 
-public class EstruturaRepetitivaWhile 
+public class project1_EstruturaRepetitivaWhile 
 {
 	public static void Executar()
 	{
@@ -19,6 +19,7 @@ public class EstruturaRepetitivaWhile
 		}
 		
 		System.out.println(soma);
+		
 		
 		sc.close();
 	}
