@@ -1,13 +1,11 @@
 package EstruturasCondicionais;
 
-import OutrosTopicos.FuncoesParaString;
-import OutrosTopicos.LogicaVerificandoMaiorNum;
-import OutrosTopicos.VerificandoBitwise;
+import OutrosTopicos.ProblemaSemOOP;
 
 public class Program
 {	
 	public static void main(String[] args) 
 	{
-		LogicaVerificandoMaiorNum.Executar();
+		ProblemaSemOOP.Executar();
 	}
 }
