@@ -28,8 +28,8 @@ public class ProblemaSemOOP
 		p = (aY + bY + cY) / 2.0;
 		double areaY = Math.sqrt(p * (p - aY) * (p - bY) * (p - cY));
 		
-		System.out.printf("Triangle X area: %.4%n", areaX);
-		System.out.printf("Triangle Y area: %.4%n", areaY);
+		System.out.printf("Triangle X area: %.4f%n", areaX);
+		System.out.printf("Triangle Y area: %.4f%n", areaY);
 		
 		if(areaX > areaY)
 		{
