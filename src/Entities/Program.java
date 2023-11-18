@@ -1,32 +1,36 @@
-package OutrosTopicos;
+package Entities;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-public class ProblemaSemOOP 
+public class Program 
 {
 	public static void Executar()
 	{
 		Locale.setDefault(Locale.US);
 		Scanner sc = new Scanner(System.in);
 		
-		double aX, bX, cX, aY, bY, cY; 
+		Triangle x, y;
+		
+		x = new Triangle();
+		y = new Triangle();
+		
 		
 		System.out.println("Enter the measures of triangle X: ");
-		 aX = sc.nextDouble();
-		 bX = sc.nextDouble();
-		 cX = sc.nextDouble();
+		 x.a = sc.nextDouble();
+		 x.b = sc.nextDouble();
+		 x.c = sc.nextDouble();
 		
 		System.out.println("Enter the measures of triangle Y: ");
-		 aY = sc.nextDouble();
-		 bY = sc.nextDouble();
-		 cY = sc.nextDouble();
+		 y.a = sc.nextDouble();
+		 y.b = sc.nextDouble();
+		 y.c = sc.nextDouble();
 		
-		double p = (aX + bX + cX) / 2.0;
-		double areaX = Math.sqrt(p * (p - aX) * (p - bX) * (p - cX));
+		double p = (x.a + x.b + x.c) / 2.0;
+		double areaX = Math.sqrt(p * (p - x.a) * (p - x.b) * (p - x.c));
 		
-		p = (aY + bY + cY) / 2.0;
-		double areaY = Math.sqrt(p * (p - aY) * (p - bY) * (p - cY));
+		p = (y.a + y.b + y.c) / 2.0;
+		double areaY = Math.sqrt(p * (p - y.a) * (p - y.b) * (p - y.c));
 		
 		System.out.printf("Triangle X area: %.4f%n", areaX);
 		System.out.printf("Triangle Y area: %.4f%n", areaY);
@@ -41,9 +45,5 @@ public class ProblemaSemOOP
 		}
 		
 		sc.close();
-		
-		/* 
-		a atividade com orientação a objetos está no pacote entities
-		*/
 	}
 }

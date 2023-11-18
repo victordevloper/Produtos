@@ -20,4 +20,5 @@ public class VerificandoBitwise
 			System.out.println("6th bit is false");
 		}
 	}
+	
 }
